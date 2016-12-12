@@ -3,16 +3,6 @@
 
 # Change Log
 
-##0.2.6 (2016/12/12) Update transitive dependencies:
-
-Bugfixes:
-
-* As some of our users are already consuming a newer Google Play Services version we have updated our Google Play Services artifact to use the version 10.0.1.
-
-Enhancement:
-
-* Add a new header to the API Client so we can know if the SDK has been initialized in debug mode or not. This is transparent to the user.
-
 ##0.2.5 (2016/12/05) Fix SQLiteDatabaseLockedException:
 
 Bugfixes:
