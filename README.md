@@ -14,8 +14,7 @@ Features:
 * Update user agent header to contain information about the library configuration.
 * Add a new header to the client indicating if the forceReport param is activated or not.
 * Add cross-metric info to every report indicating if the report was collected in background or in foreground.
-* Update Google Play Services transitive dependency to use the version 10.0.1 instead of the version 9.6.1.
-
+* Update Google Play Services transitive dependency to use the version ``10.0.1`` instead of the version ``9.6.1``.
 
 ##0.2.5 (2016/12/05) Fix SQLiteDatabaseLockedException:
 
