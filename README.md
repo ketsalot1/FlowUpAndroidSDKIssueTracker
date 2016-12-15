@@ -1,7 +1,7 @@
-![FlowUp Logo][flowuplogo] FlowUp Android SDK Issue Tracker & Change Log
+![FlowUp Logo][flowuplogo] FlowUp Android SDK Issue Tracker & Changelog
 ==============================
 
-# Change Log
+# Changelog
 
 ##0.2.6 (2016/12/15) Update Google Play Services dependency to 10.0.1, add background/foreground cross-metric data and minor fixes:
 
