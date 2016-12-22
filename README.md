@@ -3,6 +3,13 @@
 
 # Changelog
 
+##0.2.7 (2016/12/22) Working on stability:
+
+Bugfixes:
+
+* Fix `SQLiteDatabaseLockedException` in all possible situations.
+* Fix a potential NPE caused by a race condition while reporting metrics.
+
 ##0.2.6 (2016/12/15) Update Google Play Services dependency to 10.0.1, add background/foreground cross-metric data and minor fixes:
 
 Bugfixes:
@@ -22,7 +29,7 @@ Bugfixes:
 
 * Fix the only crash we have found during the last releases where our database connection was throwing a [SQLiteDatabaseLockedException](https://developer.android.com/reference/android/database/sqlite/SQLiteDatabaseLockedException.html). Updating our ``SQLiteOpenHelper`` implementation to be a singleton we fixed this issue. **Now the SDK is crash free**.
 
-##0.2.4 (2016/12/04)Fix config GCMTaskService:
+##0.2.4 (2016/12/04) Fix config GCMTaskService:
 
 Bugfixes:
 
